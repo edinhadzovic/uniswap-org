@@ -258,8 +258,7 @@ const Header = props => {
             textDecoration: `none`
           }}
         >
-          <StyledUni />
-          <HeaderText>Uniswap</HeaderText>
+          <HeaderText>Landswap</HeaderText>
         </StyledHomeLink>
       </StyledNavTitleWrapper>
       <MenuToggle ref={button} open={isMenuOpen} onClick={() => updateIsMenuOpen(!isMenuOpen)}>
@@ -285,7 +284,7 @@ const Header = props => {
             target="_blank"
             href="https://app.uniswap.org/"
           >
-            Use Uniswap
+            Use Landswap
           </StyledTradeLink>
         )}
       </StyledNav>

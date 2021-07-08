@@ -62,7 +62,7 @@ const StyledTitle = styled.div`
 `
 
 const StyledBodyTitle = styled.h1`
-  font-size: 104px;
+  font-size: 72px;
   margin: 4rem auto;
   /* pointer-events: none; */
   white-space: wrap;
@@ -332,19 +332,10 @@ const IndexPage = props => {
       <StyledBody>
         <StyledTitle>
           <StyledBodyTitle>
-            Decentralized Trading Protocol
-            <MiniNewInfo to="/blog/launch-uniswap-v3/">
-              <NewPill
-                style={{
-                  color: 'white'
-                }}
-              >
-                Learn about Uniswap V3 ↗
-              </NewPill>
-            </MiniNewInfo>
+            Global decentralized Community powered with memes and innovation.
           </StyledBodyTitle>
           <StyledBodySubTitle style={{ marginBottom: '3rem' }}>
-            Guaranteed liquidity for millions of users and hundreds of Ethereum applications.
+            Join the movement and become an beacon !
           </StyledBodySubTitle>
 
           <StyledItemRow>
@@ -357,17 +348,7 @@ const IndexPage = props => {
               target="_blank"
               href="https://app.uniswap.org/"
             >
-              Use Uniswap
-            </Button>
-            <Button
-              outlined
-              to="/docs"
-              as={Link}
-              style={{
-                fontSize: '20px'
-              }}
-            >
-              Documentation
+              Use Landswap
             </Button>
             <Button
               outlined
